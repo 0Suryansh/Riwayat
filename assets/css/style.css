@@ -1,13 +1,4 @@
-/**
-* Template Name: TheEvent - v4.3.0
-* Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   background: #fff;
   color: #2f3138;
@@ -113,6 +104,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   font-weight: 700;
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .section-header p {
@@ -821,12 +813,22 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 991px) {
   #schedule .nav-tabs a {
     padding: 8px 60px;
+    
+    margin-top: 10px;
+  }
+}
+@media (max-width: 1201px) {
+  #schedule .nav-tabs a {
+    padding: 8px 60px;
+    
+    margin-top: 10px;
   }
 }
 
 @media (max-width: 767px) {
   #schedule .nav-tabs a {
     padding: 8px 50px;
+    margin-top: 10px;
   }
 }
 
